@@ -1,0 +1,24 @@
+{
+    "Changes": [
+        {
+            "LogName": "Edit Strings/StringsFromCSFiles spellings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "MapPage.cs.11069": "Open 09:00 to 16:00 most days",
+                "MapPage.cs.11077": "Open 09:00 to 15:00",
+                "MapPage.cs.11080": "Open 09:00 to 17:00 (Closed Wednesday)",
+                "MapPage.cs.11080_ExtendedHours": "Open 09:00 to 17:00",
+                "MapPage.cs.11082": "Open 09:00 to 16:00",
+                "MapPage.cs.11084": "Open 12:00 To 00:00",
+                "MapPage.cs.11087": "Open 08:00 to 18:00",
+                "MapPage.cs.11096": "Shop open 9:00 to 17:00 most days",
+                "MapPage.cs.11100": "Open 14:00 to 02:00",
+                "MovieTheater_Hours": "(Open 09:00 to 21:00)",
+                "MapPage.cs.11106": "Open 09:00 to 23:00",
+                "MapPage.cs.11108": "Open 09:00 to 17:00",
+                "MapPage.cs.11108_newHours": "Open 08:00 to 17:00"
+            }
+        }
+    ]
+}

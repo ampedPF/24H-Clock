@@ -1,0 +1,6 @@
+{
+    "config.24H_Language.name": "Select in-game language",
+    "config.24H_Language.description": "Game restart required",
+    "config.24H_Enabled.name": "24h Format",
+    "config.24H_Enabled.description": "Game restart required",
+}

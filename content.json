@@ -1,0 +1,85 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+       // Clock section
+       "24H_Enabled": {
+           "AllowValues": "true, false",
+           "Default": "true"
+       }
+    },
+    
+    "Changes": [
+        // define language
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalLanguages",
+            "Entries": {
+                "ampedPF.24HClock": {  // for technical reasons, you need to specify the ID here *and* in the "ID" field
+                    "ID": "ampedPF.24HClock",
+                    "LanguageCode": "en-24",
+                    "ButtonTexture": "Mods/ampedPF.24HClock/Button",
+                    "UseLatinFont": true,
+                    "TimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockTimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockDateFormat": "[DAY_OF_WEEK]. [DAY_OF_MONTH]"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalLanguages",
+            "Fields": {
+                "ampedPF.24HClock": {
+                    "TimeFormat": "[HOURS_12]:[MINUTES] [AM_PM]",
+                    "ClockTimeFormat": "[HOURS_12]:[MINUTES] [AM_PM]"
+                }
+            },
+            "When": {
+                "24H_Enabled": false
+            }
+        },
+
+        // load button texture
+        {
+            "Action": "Load",
+            "Target": "Mods/ampedPF.24HClock/Button",
+            "FromFile": "assets/button.png"
+        },
+
+        // load strings
+
+        // English
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/Characters.json",
+            "When": {
+                "Language": "en-24",
+                "24H_Enabled": true
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/Locations.json",
+            "When": {
+                "Language": "en-24",
+                "24H_Enabled": true
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/StringsFromCSFiles.json",
+            "When": {
+                "Language": "en-24",
+                "24H_Enabled": true
+            }
+        },
+        {
+            "Action": "Include",
+            "FromFile": "assets/Strings/StringsFromMaps.json",
+            "When": {
+                "Language": "en-24",
+                "24H_Enabled": true
+            }
+        }
+    ]
+}

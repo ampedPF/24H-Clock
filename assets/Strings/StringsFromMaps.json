@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Edit Strings/StringsFromCSFiles spellings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "Town-Christmas.1": "Clinic - Hours 09:00 - 15:00",
+                "Town-Christmas.4": "Archaeology Office - Open 08:00 to 18:00",
+                "Town-EggFestival.1": "Clinic - Hours 09:00 - 15:00",
+                "Town-EggFestival.4": "Archaeology Office - Open 08:00 to 18:00",
+                "Town-Fair.3": "Clinic - Hours 09:00 - 15:00 ",
+                "Town-Fair.8": "Archaeology Office - Open 08:00 to 18:00",
+                "Town-Halloween.1": "Clinic - Hours 09:00 - 15:00",
+                "Town-Halloween.4": "Archaeology Office - Open 08:00 to 18:00",
+                "Town.1": "Clinic - Hours 09:00 - 15:00",
+                "Town.5": "Archaeology Office - Open 08:00 to 18:00",
+            }
+        }
+    ]
+}

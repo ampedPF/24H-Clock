@@ -1,0 +1,14 @@
+{
+    "Changes": [
+        {
+            "LogName": "Edit Strings/StringsFromCSFiles spellings",
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "BeachNightMarket_Closed": "Opens at 17:00.",
+                "BeachNightMarket_GiftGiverClosed": "Merchant: The night market starts at 17:00... visit me then for a free cup of coffee! ",
+                "Town_SeedShopSign": "- Pierre's General Store -\nNow open 7 days a week From 09:00-17:00!",
+            }
+        }
+    ]
+}
