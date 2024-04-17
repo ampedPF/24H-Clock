@@ -1,7 +1,7 @@
 {
     "Name": "24H Clock",
     "Author": "ampedPF",
-    "Version": "0.1.0-alpha1",
+    "Version": "1.0.0-stable",
     "Description": "Displays time in the 24-hour notation",
     "UniqueID": "ampedPF.24HClock",
     "UpdateKeys": ["Nexus:22711", "GitHub:ampedPF/24H-Clock"], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
